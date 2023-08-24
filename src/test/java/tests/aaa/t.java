@@ -1,4 +1,4 @@
 package tests.aaa;
 
-public class t e {
+public class t  {
 }
