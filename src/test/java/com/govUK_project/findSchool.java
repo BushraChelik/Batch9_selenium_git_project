@@ -1,4 +1,4 @@
-package tests.govUK_project;
+package com.govUK_project;
 
 public class findSchool {
     /*
