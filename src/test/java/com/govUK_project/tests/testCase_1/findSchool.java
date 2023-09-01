@@ -1,6 +1,11 @@
-package com.govUK_project;
+package com.govUK_project.tests.testCase_1;
 
-public class findSchool {
+import com.govUK_project.tests.TestBase;
+import com.govUK_project.utilities.*;
+import org.testng.annotations.Test;
+
+public class findSchool extends TestBase {
+
     /*
     test case 1
 
@@ -16,9 +21,16 @@ public class findSchool {
     select "secondary" and  "Further education and skills" check box at the same time
     click "search " button
     select "Bishopshalt School"
-7
+
      */
 
 
+//    open "https://www.gov.uk/"
 
+
+    @Test
+    public void testName() {
+//        open "https://www.gov.uk/"
+        driver.get(ConfigurationReader.get("url"));
+    }
 }

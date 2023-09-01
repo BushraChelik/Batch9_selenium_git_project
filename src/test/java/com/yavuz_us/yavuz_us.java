@@ -1,4 +1,4 @@
-package tests.yavuz_us;
+package com.yavuz_us;
 
 public class yavuz_us {
 
