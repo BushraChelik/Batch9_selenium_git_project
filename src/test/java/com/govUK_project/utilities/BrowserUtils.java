@@ -279,6 +279,7 @@ public class BrowserUtils {
         ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
+
     /**
      * Performs double click action on an element
      *
